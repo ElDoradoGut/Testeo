@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
-import {test} from "./backend/controllers/alumnos.controller.js"
+import {test} from "./backend/controllers/alumnos.controller.js";
 dotenv.config();
 
 mongoose.connect(process.env.urlbase)
